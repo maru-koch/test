@@ -9,5 +9,5 @@ job:
       name: "test pip line"
       runs_on: "ubuntu"
       steps:
-          name: "say hello"
-          run: echo "hello world"
+          - name: "say hello"
+            run: echo "hello world"
