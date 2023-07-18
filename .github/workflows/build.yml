@@ -6,7 +6,7 @@ on:
 
 jobs:
   testing:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: "say hello"
         run: echo "hello world"
