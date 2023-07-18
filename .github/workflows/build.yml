@@ -2,12 +2,12 @@ name: 'first pipeline'
 on:
   push:
     branches:
-          - "master"
+      - "master"
 
-job:
+jobs:
   testing:
-      name: "test pip line"
-      runs_on: "ubuntu-latest"
-      steps:
-          - name: "say hello"
-            run: echo "hello world"
+    name: "test pip line"
+    runs_on: "ubuntu-latest"
+    steps:
+      - name: "say hello"
+        run: echo "hello world"
