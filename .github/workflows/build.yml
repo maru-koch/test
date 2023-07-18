@@ -1,13 +1,13 @@
-name: "Workflow example"
+name: 'first pipeline'
 on:
   push:
     branches:
           - "master"
 
-jobs:
-  hello:
-    name: "Say hello"
-    runs-on: ubuntu-latest
-    steps:
-      - name: Display message
-        run: echo "Hello from GitHub Actions!"
+job:
+  testing:
+      name: "test pip line"
+      runs_on: "ubuntu"
+      steps:
+          name: "say hello"
+          run: echo "hello world"
