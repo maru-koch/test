@@ -7,7 +7,7 @@ on:
 jobs:
   testing:
     name: "test pip line"
-    runs_on: "ubuntu-latest"
+    runs_on: ubuntu-latest
     steps:
       - name: "say hello"
         run: echo "hello world"
