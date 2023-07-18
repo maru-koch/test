@@ -6,7 +6,6 @@ on:
 
 jobs:
   testing:
-    name: "test pip line"
     runs_on: ubuntu-latest
     steps:
       - name: "say hello"
